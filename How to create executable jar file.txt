@@ -1,0 +1,11 @@
+Compile the source code
+javac Test.java
+
+Create Manifest file
+echo Main-Class: Test > manifest.txt
+
+Create jar file
+jar cfm Test.jar manifest.txt
+
+How to run the jar file
+java -jar Test.jar
